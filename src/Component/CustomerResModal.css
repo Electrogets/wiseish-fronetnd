@@ -1,0 +1,39 @@
+.customerfeedback{
+    height: 300px !important;
+    width: 300px !important;
+    position: absolute !important;
+    z-index: 100 !important;
+    top: 20% !important;
+    left: 8% !important;
+    background-color: #F0EFFF !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+ .customerfeedback>div {
+    height: 300px !important;
+    width: 100% !important;
+    background-color: #F0EFFF;
+ 
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 15px #F0EFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customerfeedbackModalbtn{
+    border: none;
+    font-size: 13px;
+    outline: none !important;
+}
+button.closeModall {
+    border: none !important;
+    background: none !important;
+}
+.customer-review-page .modal-content {
+    width: fit-content;
+    font-size: 14px;
+}
+.customer-review-page .modal-title h4{
+    font-size: 16px !important;
+}

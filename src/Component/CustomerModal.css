@@ -1,0 +1,66 @@
+.customer-modal-parent table.table {
+  table-layout: fixed;
+}
+.customer-modal-parent td {
+  word-wrap: break-word;
+}
+@media (min-width: 576px) {
+  .customer-modal-parent .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+  }
+}
+#customer-modal-parent .modal-content {
+  width: 130% !important;
+  margin: auto;
+}
+.customer-modal-parent .table td {
+  font-size: 12px !important;
+}
+
+.customer-modal-parent.modal-dialog {
+  max-width: 615px !important;
+  margin: 1.75rem auto;
+}
+/* .customer-modal-parent i.fa-solid.fa-xmark {
+    position: absolute;
+    top: 9px;
+    right: 11px !important;
+} */
+
+.modal-content {
+  width: 100% !important;
+}
+
+#customer-modal-parent .table {
+  font-size: 12px;
+}
+.modal-title h4 {
+  font-size: 16px;
+}
+.modal-title {
+  margin-bottom: 0;
+  /* line-height: 1.5; */
+  font-size: 17px;
+}
+
+.modalblurr {
+  opacity: var(--bs-backdrop-opacity) !important;
+  filter: blur(1px) !important;
+  pointer-events: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-body {
+    display: block;
+    overflow-x: scroll;
+    width: auto;
+  }
+  .modal-header {
+    display: block;
+  }
+}
+
+.table thead th {
+  vertical-align: baseline !important;
+}

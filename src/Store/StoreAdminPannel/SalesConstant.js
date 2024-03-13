@@ -1,0 +1,1 @@
+export const SalesGetData = "GET_SALES_DATA";

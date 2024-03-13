@@ -1,0 +1,65 @@
+menu ul li a {
+  text-decoration: none;
+}
+
+.h-70vh {
+  height: 70vh;
+}
+.table-data-wrapper {
+  height: 60vh;
+  overflow: auto;
+}
+.checkboxText {
+  text-align: center;
+}
+.table-data-wrapper table {
+  width: 95%;
+  margin: auto;
+}
+/* @keyframes Toastify__trackProgress {
+  0% {
+    transform: scaleX(0) !important;
+  }
+  100% {
+    transform: scaleX(1) !important;
+  }
+} */
+.Toastify__progress-bar--animated {
+  animation: Toastify__trackProgress linear 1 backwards !important;
+}
+
+.parent-div-progressbar .w-20 {
+  width: 15% !important;
+}
+.parent-div-progressbar .w-80 {
+  width: 85% !important;
+}
+.g-1 {
+  gap: 1rem;
+}
+.parent-div-progressbar .count-circle {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4ba3dd;
+}
+@media (max-width: 767px) {
+  .parent-div-progressbar .w-20 {
+    width: 25% !important;
+  }
+  .parent-div-progressbar .w-80 {
+    width: 75% !important;
+  }
+}
+.bg-color-delete {
+  color: red;
+  font-size: 15px;
+}
+.bg-color-edit {
+  color: #4ba3dd;
+  font-size: 15px;
+}

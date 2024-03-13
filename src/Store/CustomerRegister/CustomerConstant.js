@@ -1,0 +1,1 @@
+export const CustomerRegister="CUTOMER_REGISTER";

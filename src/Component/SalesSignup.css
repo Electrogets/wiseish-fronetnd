@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sales-signup-page {
+  /* background-image: url('/public//img/Customer-Review-Banner.jpg') !important; */
+  background-image: url('/public//img/storeAdmin.jpg') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.loginwith-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loginwith-parent .loginwithChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.google {
+  width: 20px;
+}
+
+.logo-admin img {
+  width: 100px;
+  text-align: center;
+  height: auto;
+}
+
+.form-check-inline {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: baseline;
+  gap: 5px;
+  padding-left: 0;
+  margin-right: 0.75rem;
+}
+.logo-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-parent span {
+  font-size: 12px;
+}
+
+.facebook-parent span {
+  font-size: 12px;
+}
+
+.google-parent {
+  border: 1px solid #ede5e5;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 3px 16px;
+  border-radius: 20px;
+  padding-bottom: 7px;
+}
+
+.facebook-parent {
+  border: 1px solid #ede5e5;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 3px 16px;
+  border-radius: 20px;
+  padding-bottom: 7px;
+
+}
+
+.login {
+  margin: 20px auto;
+  padding: 40px 50px;
+  max-width: 450px;
+  border-bottom: 3px solid #2C3E50;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-bottom-left-radius: 14px !important;
+  border-bottom-right-radius: 14px !important;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.login input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 10px 0;
+  outline: none;
+  padding: 14px 12px;
+  border: 2px solid dotted #1abc9c;
+  font-size: 16px;
+  border-radius: 2px;
+  font-family: Raleway, sans-serif;
+}
+
+.login input[type=text],
+.login input[type=password] {
+  border: none;
+  transition: .2s;
+}
+
+.login input[type=text]:hover {
+  border-color: #031329;
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+
+.login input[type=submit] {
+  border: none;
+  background-color: #a48de9;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+  margin: 20px 0px;
+}
+
+.login input[type=submit]:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.login h2 {
+
+  color: #031329;
+  font-size: 28px;
+}
+
+.login p {
+  margin-bottom: 40px;
+}
+
+.links {
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: table-cell;
+  padding-top: 10px;
+}
+
+.links a:first-child {
+  text-align: left;
+}
+
+.links a:last-child {
+  text-align: right;
+}
+
+.login h2,
+.login p,
+.login a {
+  text-align: center;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: .8em;
+}
+
+.login a:visited {
+  color: inherit;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+div#ftr {
+  background-color: #cc0033;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .sales-signup-page{
+     background-image: url('/public//img/Phone 2.jpg') !important;
+     background-size: cover;
+     background-repeat: no-repeat;
+    }
+
+  .login saless{
+    margin: 3px auto !important;
+    background-color: transparent !important;
+  }
+
+  .login input[type=submit] {
+    margin: 1px 0px !important;
+  }
+}

@@ -1,0 +1,19 @@
+/* Common styles for both mobile and desktop */
+.BarChartContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Mobile styles */
+@media (max-width: 599px) {
+  .BarChartContainer {
+    width: 100%;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 600px) {
+  .BarChartContainer {
+    width: 900px;
+  }
+}

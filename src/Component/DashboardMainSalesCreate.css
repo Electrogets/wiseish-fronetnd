@@ -1,0 +1,49 @@
+.sales-register-create {
+  position: static !important;
+  margin-top: 20px !important;
+  margin: auto;
+  transform: inherit;
+  margin-top: 50px !important;
+}
+
+.table-data-wrapper {
+  border-radius: 25px;
+  box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, 0.2);
+  margin: 0 20px;
+  height: 400px;
+  overflow-y: auto;
+}
+.table-inner-content table-responsive {
+  box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, 0.2);
+}
+button.button-30-add-sales {
+  background: linear-gradient(180deg, var(--prime-color), var(--second-color));
+  padding: 10px;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.buttom-parent-div-sales {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  .sales-register-create {
+    margin-top: 0 !important;
+  }
+  .table-data-wrapper {
+    height: auto;
+  }
+  .sales-register-create input {
+    background-color: #3498ff17;
+  }
+  .sales-register-create h5 {
+    margin-bottom: 1rem;
+  }
+}
